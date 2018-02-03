@@ -2,9 +2,9 @@
 
 ### Contents
 
-[Installing Vue](#Installing Vue)
-[Installing Axios](#Installing Axios)
-[Initialising an Instance of Vue](#Initialising an Instance of Vue)
+[Installing Vue](#Installing-vue)
+[Installing Axios](#installing-axios)
+[Initialising an Instance of Vue](#initialising-an-instance-of-vue)
 
 ## Prerequisites
 
