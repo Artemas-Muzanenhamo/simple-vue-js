@@ -1,5 +1,11 @@
 # simple-vue-js
 
+### Contents
+
+[Installing Vue](#Installing Vue)
+[Installing Axios](#Installing Axios)
+[Initialising an Instance of Vue](#Initialising an Instance of Vue)
+
 ## Prerequisites
 
 * HTML
