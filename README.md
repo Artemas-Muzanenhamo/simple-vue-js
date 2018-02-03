@@ -3,7 +3,7 @@
 Table of Contents
 ==================
 
-* [Installing Vue](#Installing-vue)
+* [Installing Vue](#installing-vue)
 * [Installing Axios](#installing-axios)
 * [Initialising an Instance of Vue](#initialising-an-instance-of-vue)
 
