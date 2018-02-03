@@ -12,6 +12,10 @@
     - Templates
     - Declarative Bindings
 - Speed
+- Licensing
+- Browser Support
+- Easy to learn
+- Easy to use
 
 ### Templates
 
@@ -29,3 +33,21 @@ This is the glue that hold the UI and the data together. They enable a
 separation of concerns that enables simplicity in development. It removes
 the burden of directly managing the DOM (Document Object Model)
 when the data changes.
+
+## Adding Vue
+
+In order to add Vue, you will need to add a script tag that will inject the 
+Vue library through a CDN (Content delivery network).
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>MyVue</title>
+    </head>
+    <body>
+        <div id="myVue"></div>
+        <script type="text/javascript" src="https://unpkg.com/vue"></script>
+    </body>
+</html>
+```
