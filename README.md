@@ -87,8 +87,34 @@ the following script tag:
 ```javascript
 var myVue = new Vue({
     el: '#myVue',
-    data: {
-        
+    data: {     
     }
 });
 ```
+
+## Mounting an Instance of Vue
+
+This is when the virtual DOM is actually shown to the user. In other words this is when your 
+view becomes visible to the user.
+
+To mount an instance of view onto the DOM use the `el` option in the Vue constructor.
+
+You mainly have 2 main options:
+- You can assign it to the HTML element:
+```javascript
+var growler = new Vue({
+    el: document.getElementById('growler')
+});
+```
+
+- You can use a CSS selector
+```javascript
+var growler = new Vue({
+    el: '#growler',
+});
+```
+The CSS selector approach it preferred as it is more readable :smile:.
+
+*Mounting an instance of Vue actually replaces the HTML DOM element with the Vue generated DOM
+for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMENTS IN A WEBPAGE*
+
