@@ -122,3 +122,13 @@ for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMEN
 <p align="center">
   <img src="https://user-images.githubusercontent.com/29547780/36276240-2d862ec4-1285-11e8-9471-675a59639eb4.png">
 </p>
+
+## New Vue()
+
+## Creation
+
+## Mounting
+
+## Updating
+
+## Destroy
