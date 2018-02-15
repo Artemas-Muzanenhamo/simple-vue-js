@@ -118,3 +118,7 @@ The CSS selector approach it preferred as it is more readable :smile:.
 **Mounting an instance of Vue actually replaces the HTML DOM element with the Vue generated DOM
 for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMENTS IN A WEBPAGE**
 
+# Vue Lifecycle
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/29547780/36276240-2d862ec4-1285-11e8-9471-675a59639eb4.png">
+</p>
