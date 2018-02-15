@@ -115,6 +115,6 @@ var growler = new Vue({
 ```
 The CSS selector approach it preferred as it is more readable :smile:.
 
-*Mounting an instance of Vue actually replaces the HTML DOM element with the Vue generated DOM
-for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMENTS IN A WEBPAGE*
+**Mounting an instance of Vue actually replaces the HTML DOM element with the Vue generated DOM
+for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMENTS IN A WEBPAGE**
 
