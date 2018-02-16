@@ -137,8 +137,21 @@ You will not have access to the DOM or the target mounting element (`this.$el`)
 inside of creation hooks.
 
 ### beforeCreate
-The beforeCreate hook runs at the very initialization of your component. data has not been made reactive, 
-and events have not been set up yet.
+The `beforeCreate` hook runs at the very initialization of your component were `data` has not been made reactive, 
+and `events` have not been set up yet.
+
+```javascript
+<script>
+export default {
+  beforeCreate() {
+    console.log('Nothing gets called before me!')
+  }
+}
+</script>
+```
+
+### created
+
 
 ## Mounting
 
