@@ -140,6 +140,7 @@ inside of creation hooks.
 The `beforeCreate` hook runs at the very initialization of your component were `data` has not been made reactive, 
 and `events` have not been set up yet.
 
+Example:
 ```javascript
 <script>
 export default {
@@ -151,7 +152,33 @@ export default {
 ```
 
 ### created
+In the created hook, you will be able to access reactive data and events are active. Templates and Virtual DOM have 
+not yet been mounted or rendered.
 
+Example:
+```javascript
+<script>
+export default {
+  data() {
+    return {
+      property: 'Blank'
+    }
+  },
+
+  computed: {
+    propertyComputed() {
+      console.log('I change when this.property changes.')
+      return this.property
+    }
+  },
+
+  created() {
+    this.property = 'Example property update.'
+    console.log('propertyComputed will update, as this.property is now reactive.')
+  }
+}
+</script>
+```
 
 ## Mounting
 
