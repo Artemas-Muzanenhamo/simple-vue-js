@@ -127,6 +127,19 @@ for that reason, YOU SHOULD NEVER SET THE `el` OPTION TO THE HTML OR BODY ELEMEN
 
 ## Creation
 
+`Creation hooks` are the very first hooks that run in your component. 
+They allow you to perform actions before your component has even been added to the DOM. 
+Unlike any of the other hooks, creation hooks are also run during server-side rendering.
+
+Use creation hooks if you need to set things up in your component both during client 
+rendering and server rendering. 
+You will not have access to the DOM or the target mounting element (`this.$el`) 
+inside of creation hooks.
+
+### beforeCreate
+The beforeCreate hook runs at the very initialization of your component. data has not been made reactive, 
+and events have not been set up yet.
+
 ## Mounting
 
 ## Updating
